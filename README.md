@@ -38,7 +38,7 @@ Response:
 }
 
 ## To Login
-http://127.0.0.1:8000/api/login
+GET: http://127.0.0.1:8000/api/login
 
 $request->addPostParameter(array(
   'username' => 'roman3',
@@ -46,6 +46,29 @@ $request->addPostParameter(array(
 ))
 
 ## To Get roles
-http://127.0.0.1:8000/api/roles
+GET: http://127.0.0.1:8000/api/roles
 - Add Bearer Token -> 1|sr42oZTnhCsiTiJQUnh4df7kbWfimQ3fm6yY1GuR
+
+## To create roles (use x-www-form encoded: key:name  value: HR, key:user_id value:2)
+POST: http://127.0.0.1:8000/api/roles
+- Add Bearer Token -> 1|sr42oZTnhCsiTiJQUnh4df7kbWfimQ3fm6yY1GuR
+
+## OTHER ENDPOINTS
+Update
+PUT: http://127.0.0.1:8000/api/role/1
+
+Delete
+DELETE: http://127.0.0.1:8000/api/role/1
+
+## FACILITY ENDPOINTS
+List
+GET: http://127.0.0.1:8000/api/facilities
+
+POST: http://127.0.0.1:8000/api/facility
+
+Update
+PUT: http://127.0.0.1:8000/api/facility/1
+
+Delete
+DELETE: http://127.0.0.1:8000/api/facility/1
 

@@ -64,6 +64,7 @@ DELETE: http://127.0.0.1:8000/api/role/1
 List
 GET: http://127.0.0.1:8000/api/facilities
 
+Create
 POST: http://127.0.0.1:8000/api/facility
 
 Update

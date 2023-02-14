@@ -1,13 +1,13 @@
 ## Steps
 
-- [git clone https://github.com/romanogarcia/romano-garcia.git
-- [cd romano-garcia
-- [composer install
-- [cp .env.example .env
-- [configure your database
-- [php artisan key:generate
-- [php artisan migrate:fresh --seed
-- [php artisan serve
+- git clone https://github.com/romanogarcia/romano-garcia.git
+- cd romano-garcia
+- composer install
+- cp .env.example .env
+- configure your database
+- php artisan key:generate
+- php artisan migrate:fresh --seed
+- php artisan serve
 
 ## To register account
 http://127.0.0.1:8000/api/register

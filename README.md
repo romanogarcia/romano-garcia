@@ -9,6 +9,8 @@
 - php artisan migrate:fresh --seed
 - php artisan serve
 
+## Use Postman to call api endpoint
+
 ## To register account
 http://127.0.0.1:8000/api/register
 

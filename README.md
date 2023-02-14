@@ -26,9 +26,9 @@ $request->addPostParameter(array(
 Response:
 {
     "user": {
-        "id": 6,
-        "name": "Roman13",
-        "username": "roman3",
+        "id": 1,
+        "name": "John",
+        "username": "john123",
         "email": "test@test22.com2",
         "email_verified_at": null,
         "created_at": "2023-02-14T09:57:36.000000Z",
